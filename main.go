@@ -3,5 +3,7 @@ package main
 import "fmt"
 
 func main(){
-	fmt.Println("Hola Mundo :(")
+	var numero int8 = 85
+
+	fmt.Println(numero + 5)
 }
