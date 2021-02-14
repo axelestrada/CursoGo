@@ -3,7 +3,8 @@ package main
 import "fmt"
 
 func main(){
-	var numero int8 = 85
+	var edad int8 = 17
+	var nombre string = "Axel"
 
-	fmt.Println(numero + 5)
+	fmt.Println(nombre, edad)
 }
