@@ -20,7 +20,12 @@ func main() {
 	edad, _ := reader.ReadString('\n')
 	edad = strings.TrimRight(edad, "\r\n")
 
-	fmt.Println("Nombre:", nombre, "Edad:", edad)
+	fmt.Println("Cual es su peso en libras")
+
+	peso, _ := reader.ReadString('\n')
+	peso = strings.TrimRight(peso, "\r\n")
+
+	fmt.Println("Nombre:", nombre, "Edad:", edad, "Peso:", peso)
 }
 
 // 9670-3730
