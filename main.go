@@ -26,7 +26,7 @@ func main() {
 	peso = strings.TrimRight(peso, "\r\n")
 
 	fmt.Println("Nombre:", nombre, "Edad:", edad, "Peso:", peso)
-	fmt.Println("Gracias por usar mi sistema: Axel Estrada \n Email: axele1524@gmail.com")
+	fmt.Println("Gracias por usar mi sistema: Axel Estrada \nEmail: axele1524@gmail.com")
 }
 
 // 9670-3730
