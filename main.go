@@ -12,10 +12,15 @@ func main() {
 
 	reader := bufio.NewReader(os.Stdin)
 
-	entrada, _ := reader.ReadString('\n')
-	entrada = strings.TrimRight(entrada, "\r\n")
+	nombre, _ := reader.ReadString('\n')
+	nombre = strings.TrimRight(nombre, "\r\n")
 
-	fmt.Println("Nombre:", entrada)
+	fmt.Println("Cual es su edad")
+
+	edad, _ := reader.ReadString('\n')
+	edad = strings.TrimRight(edad, "\r\n")
+
+	fmt.Println("Nombre:", nombre, "Edad:", edad)
 }
 
 // 9670-3730
